@@ -18,4 +18,4 @@ for i, z in enumerate(z_scores):
         direction = "at"
 
     outlier_status = "Outlier" if abs(z) > 3 else "Not an Outlier"
-    print(f" {data[i]} is {z:.2f} -{outlier_status}")
+    print(f" {data[i]} is {z:.2f} -{outlier_status}")  

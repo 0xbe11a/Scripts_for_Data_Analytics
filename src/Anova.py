@@ -28,4 +28,4 @@ groups = ['Group 1'] * len(group1) + ['Group 2'] * len(group2) + ['Group 3'] * l
 
 tukey_result = pairwise_tukeyhsd(data, groups, alpha=0.05)
 
-print(tukey_result)
+print(tukey_result) 

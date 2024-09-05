@@ -6,7 +6,7 @@ data = [12, 15, 14, 10, 13, 18, 20, 15, 14, 13]
 mean = np.mean(data)
 std_dev = np.std(data, ddof=1)  # ddof=1 provides the sample standard deviation
 n = len(data)
-confidence_level = 0.99
+confidence_level = 0.90
 
 t_critical = stats.t.ppf((1 + confidence_level) / 2, df=n-1)
 margin_of_error = t_critical * (std_dev / np.sqrt(n))

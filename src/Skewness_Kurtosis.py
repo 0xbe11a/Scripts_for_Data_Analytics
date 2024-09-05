@@ -1,6 +1,5 @@
 import numpy as np
 from scipy.stats import skew, kurtosis
-import matplotlib.pyplot as plt
 import seaborn as sns
 from Plotter.Plotter import plot_distribution
 
@@ -30,4 +29,3 @@ print(f"Skewness: {skewness} (Skew is {skew_direction})")
 print(f"Kurtosis: {kurt} (Kurtosis is {kurt_type})")
 
 plot_distribution(data, mean, skewness)
-plt.show()
